@@ -1,0 +1,26 @@
+ChristmasTree
+=============
+
+X'mas is coming. A colleage of mine raised a software design question as follows:
+
+									1
+								____|___________
+							   |		 		|
+							   2		 		3
+					___________|___________     |_______
+					|	    |       |      |			|
+					4		5		6		7			8
+						  __|	____|____   |
+						  |	    |  |  |  |  |
+						  9		10 11 12 13	14
+						  _________|__________
+						  |   |   |   |   |	  |
+						  15  16  17  18  19  20
+						  
+Given the relationship of the nodes described as above.
+We would like to find out the total count of nodes at a certain level
+Example : what is the count of nodes at level 2 from node 1?
+The answer should be 5
+
+ChristmasTree is a PHP class intended to solve this problem.			
+				  
